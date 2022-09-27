@@ -1,6 +1,6 @@
 .searchPage {
   display: flex;
-  flex: 0.8;
+  flex-direction: column;
   padding: 20px 20px;
 }
 
@@ -12,4 +12,10 @@
 
 .searchPage__filter > h2 {
   margin-left: 10px;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: 1px solid #d87878;
 }
